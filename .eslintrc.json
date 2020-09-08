@@ -24,7 +24,6 @@
   },
   "plugins": ["react", "@typescript-eslint", "react-hooks", "prettier"],
   "rules": {
-    "prettier/prettier": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
@@ -36,7 +35,9 @@
         "ts": "never",
         "tsx": "never"
       }
-    ]
+    ],
+    "prettier/prettier": "error",
+    "no-use-before-define": ["off", { "variables": false }]
   },
   "settings": {
     "import/resolver": {
