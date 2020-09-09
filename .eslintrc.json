@@ -36,6 +36,7 @@
         "tsx": "never"
       }
     ],
+    "camelcase": "off",
     "prettier/prettier": "error",
     "no-use-before-define": ["off", { "variables": false }]
   },
